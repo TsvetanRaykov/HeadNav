@@ -1,0 +1,23 @@
+.sene-nav {
+    display: flex;
+}
+
+.sene-nav::after {
+    content: var(--nav-label);
+    color: var(--nav-label-color);
+    transition: var(--nav-label-transition);
+    margin: 0 0 0 15px;
+}
+
+.sene-button {
+    border-radius: 50%;
+    text-align: center;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.sene-nav-tip {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: transform 0.5s;
+    position: absolute;
+}
